@@ -16,7 +16,7 @@ a function that calculates the binomial coefficent
 }
 \details{
 the binomial coefficent is defined as \deqn{n!/(k! * (n-k)!)} where
-! denotes the faculty operator. n and k must be positive integers satisfying
+! denotes the factorial operator. n and k must be positive integers satisfying
 \eqn{n >= k}.
 }
 \seealso{

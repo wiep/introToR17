@@ -4,7 +4,7 @@
 #' @seealso \url{https://en.wikipedia.org/wiki/Binomial_coefficient}
 #' @details
 #' the binomial coefficent is defined as \deqn{n!/(k! * (n-k)!)} where
-#' ! denotes the faculty operator. n and k must be positive integers satisfying
+#' ! denotes the factorial operator. n and k must be positive integers satisfying
 #' \eqn{n >= k}.
 #' @param n integer; must be larger or equal to k.
 #' @param k integer; must be larger or equal to 0.
