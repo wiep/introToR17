@@ -1,4 +1,4 @@
 library(testthat)
-library(intro17)
+library(introToR17)
 
-test_check("intro17")
+test_check("introToR17")
