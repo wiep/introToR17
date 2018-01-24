@@ -1,4 +1,3 @@
-
 #' binomial coefficent
 #' @export
 #' @description a function that calculates the binomial coefficent
