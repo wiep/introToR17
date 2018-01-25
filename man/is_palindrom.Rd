@@ -6,6 +6,9 @@
 \usage{
 is_palindrom(str)
 }
+\arguments{
+\item{str}{string; length of the vector must be 1}
+}
 \description{
 checks if a string is a palindrom
 }

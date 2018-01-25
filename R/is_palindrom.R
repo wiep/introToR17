@@ -1,4 +1,6 @@
 #' checks if a string is a palindrom
+#' @export
+#' @param str string; length of the vector must be 1
 #' @seealso \url{https://en.wikipedia.org/wiki/Palindrome}
 is_palindrom <- function(str) {
   if (!is.character(str) || length(str) != 1) {
