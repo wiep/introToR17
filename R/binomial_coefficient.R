@@ -24,14 +24,6 @@ binomial_coefficient <- function(n, k) {
     stop("n must be larger or equal to k")
   }
 
-  if (length(n) > 1 || length(k) > 1) {
-    stop("n and k must be scalars")
-  }
+  return(factorial(n)/(factorial(k) * factorial(n - k)))
 
-  # use the recursive definition
-  if (k == 0 || n == k) {
-    return(1)
-  } else {
-    return(binomial_coefficient(n-1, k) + binomial_coefficient(n-1, k-1))
-  }
 }
