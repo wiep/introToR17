@@ -1,6 +1,6 @@
 #' calculate all permutations of a vector x
 #' @details
-#' this is a naiive recursive implementation.
+#' this is a naiive recursive implementation
 #' @param x a vector
 #' @return matrix; each column is one unqiue permutation of x
 permute_vector <- function(x) {
