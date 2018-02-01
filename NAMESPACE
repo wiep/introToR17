@@ -2,3 +2,4 @@
 
 export(binomial_coefficient)
 export(is_palindrom)
+export(permute_vector)
