@@ -15,7 +15,3 @@ The sum of all natural numbers below \code{x} that are multiples of 3 or 5.
 \description{
 Gives the sum of all natural numbers below \code{x} that are multiples of 3 or 5.
 }
-\examples{
-multiples(10)
-multiples(-10)
-}
